@@ -1,0 +1,9 @@
+servers:
+  mq:
+    host: 35.194.97.150
+    port: 1415
+    queue-manager: ONE.QM
+    channel: ONE.SVR.CONN
+    queue: ONE.QUEUE
+    topic: ONE/TOPIC
+    timeout: 2000
