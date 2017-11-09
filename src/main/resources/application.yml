@@ -1,6 +1,6 @@
 servers:
   mq:
-    host: 35.194.97.150
+    host: 127.0.0.1
     port: 1415
     queue-manager: ONE.QM
     channel: ONE.SVR.CONN
