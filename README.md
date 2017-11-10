@@ -57,7 +57,7 @@ public class Application {
         
     	queueTemplate.convertAndSend(queue, "hello world",
     			(MessagePostProcessor)(message)-> {
-    		{
+	    {
                 message.setStringProperty("name", "tony");
                 return message;
             }
